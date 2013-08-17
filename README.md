@@ -2,6 +2,8 @@
 
 A simple [d3](http://d3js.org/) visualization of counts per USA states.
 
+![Image of a restated map](https://f.cloud.github.com/assets/1269165/981834/cff84fb0-0791-11e3-92f2-e399c10b87d8.png)
+
 ## Usage
 
 To use this visualization with your own data, simply modify the per state counts in `state_counts.json` to match your data.
