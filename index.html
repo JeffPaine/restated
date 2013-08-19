@@ -68,7 +68,7 @@
             .insert("path")
             .attr("d", path)
             .attr("class", "state")
-            .attr("fill", function (d) { return (color(countPerState.get(d.id))); })
+            .attr("fill", function (d) { return color(countPerState.get(d.id)); })
             .attr("opacity", 0.6);
 
         // Draw counts on state centroids
